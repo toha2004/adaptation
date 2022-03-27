@@ -92,7 +92,8 @@
 
 @media (max-width: 1024px) {
     .footer__container {
-        width: 100%;
+        max-width: 290px;
+        max-height: 127px;
     }
 
     .footer__list {

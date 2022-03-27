@@ -5,9 +5,8 @@
 
 
 .container__advantages {
-    width: 1600px;
-    height: 596px;
-    padding: 0 333px 0 333px;
+    max-width: 1600px;
+    max-height: 596px;
     text-align: center;
 }
 
@@ -52,7 +51,7 @@
 
 .list__item {
     width: 196px;
-    height: 195px;
+   height: 195px;
 }
 
 
@@ -91,7 +90,7 @@
 
 @media (max-width: 1024px) {
     .container__advantages {
-        padding: 0 114px 0 114px;
+
     }
     .advantages__title {
         font-weight: 700;
@@ -145,7 +144,11 @@
 
     .container__advantages {
         width: 290px;
-        height: 1086px;
+        max-height: 1086px;
+    }
+
+    .container_text {
+        width: 290px;
     }
 
     .advantages__title {

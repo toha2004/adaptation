@@ -17,7 +17,7 @@ body{
     font-style: normal;
     max-width: 1600px;
     max-height: 100vh;
-    min-width: 320px;
+    /*min-width: 320px;*/
     min-height: 100vh;
     margin: 0 auto;
 }
@@ -45,6 +45,7 @@ ul {
     padding: 0;
     list-style: none;
 }
+
 
 h1, h2, p {
     margin: 0;

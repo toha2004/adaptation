@@ -240,8 +240,8 @@
     }
 
     .container__header {
-        width: 320px;
-        height: 441px;
+        min-width: 290px;
+       min-height: 441px;
     }
 
     .container__menu {

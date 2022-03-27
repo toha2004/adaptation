@@ -5,8 +5,7 @@
 
 
 .container__contact {
-    width: 1600px;
-
+    max-width: 1600px;
     text-align: center;
 }
 
@@ -151,7 +150,8 @@ input {
     }
 
     .container__contact {
-        width: 290px;
+        max-width: 290px;
+        max-height: 398px;
         text-align: center;
     }
 
