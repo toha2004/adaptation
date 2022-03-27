@@ -5,7 +5,7 @@
 
 
 .footer__container {
-    width: 1200px;
+    max-width: 1200px;
     height: 68px;
 }
 
@@ -92,20 +92,28 @@
 
 @media (max-width: 1024px) {
     .footer__container {
-        max-width: 290px;
+        max-width: 964px;
         max-height: 127px;
     }
 
     .footer__list {
-        width: 100%;
+        width: 964px;
+        height: 60px;
+        margin: 0 auto;
     }
-
+    .logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 19px;
+    }
     .item_left {
         margin-right: 194px;
     }
     .item_center {
         margin-right: 214px;
     }
+
+
 
     .footer__phone {
         font-weight: 400;

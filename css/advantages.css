@@ -51,7 +51,7 @@
 
 .list__item {
     width: 196px;
-   height: 195px;
+    height: 195px;
 }
 
 
@@ -92,6 +92,7 @@
     .container__advantages {
 
     }
+
     .advantages__title {
         font-weight: 700;
         font-size: 32px;
