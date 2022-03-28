@@ -79,7 +79,7 @@
 
 .footer__container2 {
     display: none;
-    width: 320px;
+    max-width: 320px;
     height: 47px;
     text-align: center;
     padding: 15px 0;
@@ -94,11 +94,9 @@
 
 @media (max-width: 1280px) {
     .footer__container {
-        width: 100%;
     }
 
     .footer__list {
-        width: 100%;
     }
 }
 
@@ -168,7 +166,7 @@
     }
 
     .footer__container {
-        width: 290px;
+        max-width: 290px;
         height: 80px;
     }
 
@@ -176,7 +174,7 @@
         height: 80px;
         display: flex;
         justify-content: normal;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
 
     }
 
