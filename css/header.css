@@ -57,11 +57,17 @@
 
 
 .phone2 {
+    width: 132px;
+    display: inline;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
+   /* text-decoration: underline;*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 2px;
+    margin: 0 auto;
 }
 
 
