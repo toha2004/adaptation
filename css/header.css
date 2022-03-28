@@ -41,6 +41,7 @@
 
 .container__content {
    /* height: 384px;*/
+   max-width: 960px;
     text-align: center;
     margin: 0 auto;
 }
