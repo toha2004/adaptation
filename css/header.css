@@ -3,6 +3,9 @@
     padding-top: 40px;
     padding-bottom: 120px;
     background-image: linear-gradient(#2F324BD8 85%, #2F324BD8 15%), url("../img/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -13,7 +16,7 @@
 
 .container__menu {
     height: 68px;
-    margin: 0 auto 120px auto;
+    margin: 0 auto 117px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,8 +37,11 @@
 
 
 .box {
+    width: 208px;
+    height: 68px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 
@@ -47,17 +53,17 @@
 }
 
 
-.phone {
+
+.header__phone {
     font-weight: 400;
     font-size: 23px;
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 3px;
 }
 
 
-.phone2 {
+.header__phone2 {
     width: 132px;
     display: inline;
     font-weight: 400;
@@ -75,10 +81,10 @@
 .title {
     font-weight: 900;
     font-size: 52px;
-    line-height: 61px;
+    line-height: 60px;
     text-align: center;
     color: rgba(255, 255, 255, 0.86);
-    margin-bottom: 35px;
+    margin-bottom: 34px;
 }
 
 
@@ -88,7 +94,7 @@
     line-height: 31px;
     text-align: center;
     color: rgba(255, 255, 255, 0.75);
-    margin-bottom: 90px;
+    margin-bottom: 92px;
 }
 
 
@@ -109,11 +115,13 @@
     height: 48px;
     background: #15A9CB;
     color: #FFFFFF;
-    box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+    /*box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);*/
+    border: none;
     border-radius: 50px;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
+    padding: 0;
 }
 
 
@@ -146,16 +154,31 @@
     }
 
     .container__menu {
-        width: 100%;
+        width: 964px;
         height: 60px;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 0 auto 70px auto;
+        margin: 0 auto 50px auto;
     }
 
     .header__logo {
         width: 60px;
         height: 60px;
+    }
+
+    .box {
+        width: 186px;
+        height: 60px;
+    }
+    .header__phone {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .header__phone2 {
+        width: 110px;
+        font-size: 13px;
+        line-height: 15px;
     }
 
     .container__content {
@@ -173,7 +196,7 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 25px;
-        margin-bottom: 60px;
+        margin-bottom: 57px;
     }
 
     .header__btn {
@@ -268,7 +291,7 @@
         line-height: 23px;
         text-align: center;
         color: #FFFFFFDB;
-        margin-bottom: 23px;
+        margin-bottom: 27px;
     }
 
     .text {
@@ -279,7 +302,7 @@
         display: inherit;
     }
 
-    .btn {
+    .header__btn {
         width: 160px;
         height: 38px;
         background: #15A9CB;

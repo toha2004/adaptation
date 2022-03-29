@@ -1,6 +1,6 @@
 .advantages {
     background-color: white;
-    padding: 70px 0;
+    padding: 69px 0;
 }
 
 
@@ -8,6 +8,7 @@
     max-width: 934px;
     max-height: 596px;
     text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -17,7 +18,7 @@
     line-height: 41px;
     text-align: center;
     color: #383A4C;
-    margin-bottom: 25px;
+    margin-bottom: 26px;
 }
 
 
@@ -37,7 +38,7 @@
     width: 43px;
     height: 2px;
     background-color: #383A4C;
-    transform: translateY(-5px);
+    transform: translateY(-6px);
     margin-right: 23px;
 }
 
@@ -47,7 +48,7 @@
     width: 43px;
     height: 2px;
     background-color: #383A4C;
-    transform: translateY(-5px);
+    transform: translateY(-6px);
     margin-left: 23px;
 }
 
@@ -59,11 +60,12 @@
     line-height: 25px;
     text-align: center;
     color: #383A4C;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 51px auto;
 }
 
 
 .advantages__list {
+    width: 934px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -74,35 +76,58 @@
 .list__item {
     width: 196px;
     height: 195px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.text3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
 }
 
-
 .item1 {
-    background-image: url("../img/1.png");
+    width: 122px;
+    height: 122px;
+    margin: 0 auto;
+    background-image: url("../img/11.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 
 .item2 {
-    background-image: url("../img/2.png");
+    width: 122px;
+    height: 122px;
+    margin: 0 auto ;
+    background-image: url("../img/22.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 
 .item3 {
-    background-image: url("../img/3.png");
+    width: 122px;
+    height: 122px;
+    margin: 0 auto ;
+    background-image: url("../img/33.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 
 .item4 {
-    background-image: url("../img/4.png");
+    width: 122px;
+    height: 122px;
+    margin: 0 auto;
+    background-image: url("../img/44.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+
 
 
 @media (max-width: 1280px) {
@@ -130,28 +155,51 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 23px;
-        margin-bottom: 33px;
+        margin-bottom: 30px;
+    }
+
+    .advantages__text1::before {
+        width: 40px;
+        transform: translateY(-5px);
+    }
+
+
+    .advantages__text1::after  {
+        width: 40px;
+        transform: translateY(-5px);
     }
 
     .advantages__text2 {
+        width: 666px;
         font-weight: 400;
         font-size: 16px;
         line-height: 23px;
-        margin-bottom: 50px;
+        margin: 0 auto 46px auto;
     }
 
     .advantages__list {
         max-width: 870px;
         height: 182px;
+        justify-content: space-between;
+        margin: 0 auto;
+        row-gap: 50px;
     }
 
     .list__item {
-        width: 180px;
+        width: 185px;
         height: 182px;
+    }
+
+    .text3 {
         font-weight: 500;
         font-size: 18px;
         line-height: 25px;
         text-align: center;
+    }
+
+    .box-img {
+        width: 104px;
+        height: 104px;
     }
 }
 
@@ -187,7 +235,7 @@
         line-height: 23px;
         text-align: center;
         color: #383A4C;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
     }
 
     .advantages__text1 {
@@ -196,16 +244,28 @@
         line-height: 19px;
         text-align: center;
         color: #383A4C;
-        margin-bottom: 26px;
+        margin-bottom: 28px;
+    }
+
+    .advantages__text1::before {
+        width: 20px;
+        height: 1px;
+    }
+
+    .advantages__text1::after {
+        width: 20px;
+        height: 1px;
     }
 
     .advantages__text2 {
+        width: 290px;
+        height: 85px;
         font-weight: 400;
         font-size: 12px;
         line-height: 17px;
         text-align: center;
         color: #383A4C;
-        margin-bottom: 40px;
+        margin-bottom: 42px;
     }
 
     .advantages__list {
@@ -220,6 +280,16 @@
     .list__item {
         width: 166px;
         height: 182px;
-       
     }
+
+    .box-img {
+        width: 104px;
+        height: 104px;
+    }
+
+    .text3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
 }
