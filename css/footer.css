@@ -135,6 +135,10 @@
         margin-right: 194px;
     }
 
+    span {
+        display: none;
+    }
+
     .item_center {
         width: 164px;
         font-weight: 500;

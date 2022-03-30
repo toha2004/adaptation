@@ -193,10 +193,11 @@
     }
 
     .text {
+        max-width: 766px;
         font-weight: 400;
         font-size: 18px;
         line-height: 25px;
-        margin-bottom: 57px;
+        margin: 0 auto 57px auto;
     }
 
     .header__btn {
